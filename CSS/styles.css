@@ -9,8 +9,13 @@ body {
 }
 
 h2 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Righteous", sans-serif;
     font-size: 50px;
+}
+
+h3{
+    font-family: "Righteous", sans-serif;
+    font-size: 18px;
 }
 
 p{
@@ -22,7 +27,7 @@ a{
 }
 
 header {
-    font-family: "Raleway", sans-serif;
+    font-family: "Righteous", sans-serif;;
     background: #fa621bd5;
     color: #000000;
     padding: 1rem 2rem;
