@@ -1,0 +1,126 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin: 0;
+    color: #222;
+    background-color: #fff;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+}
+
+p{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+}
+a{
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    font-family: "Raleway", sans-serif;
+    background: #fa621bd5;
+    color: #000000;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    font-size: large;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #6636e9d3;
+}
+
+.section {
+    padding: 4rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.profile-pic {
+    width: 180px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.skills-grid i {
+    font-size: 80px;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.project-card {
+    background: #f9f9f9;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #0d1b2a;
+    font-weight: 500;
+}
+
+footer {
+    font-family: "Raleway", sans-serif;
+    background: #004186;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+
