@@ -12,14 +12,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Navegación -->
-    <header>
     <nav class="navbar">
-        <h1 class="logo">Desarrolladora Java Full Stack</h1>
+        <h1 class="logo">Portafolio</h1>
         <ul class="nav-links">
             <li><a href="#about" style="font-size: 20px;">Sobre mí</a></li>
             <li><a href="#skills" style="font-size: 20px;">Habilidades</a></li>
@@ -27,24 +26,31 @@
             <li><a href="#contact" style="font-size: 20px;">Contacto</a></li>
         </ul>
     </nav>
+    <!-- Hero -->
+    <header id="hero">
+        <div class="overlay"></div>
+        <div class="content text-center text-white">
+            <h1 class="display-3 fw-bold">¡Hola, soy Paola Castillo!</h1>
+            <p class="lead my-4">Desarrolladora Full Stack | UX/UI Designer</p>
+            <a href="/Img/AILED PAOLA CASTILLO ROMERO.pdf" class="btn btn-light" target="_blank">Descarga CV</a>
+    </div>
     </header>
 
     <!--Sobre mí -->
     <section id="about" class="section about">
     <div class="container">
-        <img src="Img/Pao Castillo.jpeg" alt="Ailed Paola Castillo Romero" class="profile-pic">
-        <div class="about-text">
-        <h2>Sobre mí</h2>
-        <p>
-            Mi nombre es <strong>Ailed Paola Castillo Romero</strong>, tengo 28 años
-            y actualmente radico en la CDMX. 
-        </p>
-        <p>
-            Soy una desarrolladora <strong>Full Stack</strong> con experiencia en 
-            <strong>Java, Python, JavaScript, HTML, CSS y Bootstrap</strong>. 
-            He trabajado en diseño <strong>UX/UI con Figma</strong> y disfruto 
-            crear interfaces accesibles, funcionales y visualmente atractivas.
-        </p>
+        <div class="card-body">
+            <h2>Sobre mí</h2>
+            <p>
+                Mi nombre es <strong>Ailed Paola Castillo Romero</strong>, tengo 28 años
+                y actualmente radico en la CDMX. 
+            </p>
+            <p>
+                Soy una desarrolladora <strong>Full Stack</strong> con experiencia en 
+                <strong>Java, Python, JavaScript, HTML, CSS y Bootstrap</strong>. 
+                He trabajado en diseño <strong>UX/UI con Figma</strong> y disfruto 
+                crear interfaces accesibles, funcionales y visualmente atractivas.
+            </p>
         </div>
     </div>
     </section>
@@ -104,6 +110,7 @@
             base de datos <strong>MySQL</strong>. Integración de frontend y backend. 
             Uso de <strong>Git</strong> y <strong>GitHub</strong> para el control de versiones y la colaboración efectiva entre desarrolladores.
         </p>
+        <a href="#" class="btn btn-light" style="font-family: Parkinsans, sans-serif;">Ir al repositorio</a>
         </article>
 
         <!-- Proyecto 2 -->
@@ -115,6 +122,7 @@
             Diseño UX/UI de una landing page. Definición de paleta de colores, tipografía y estructura visual
             en <strong>Figma</strong>, implementada con <strong>HTML, CSS y Bootstrap</strong>.
         </p>
+        <a href="#" class="btn btn-light" style="font-family: Parkinsans, sans-serif;">Ir al repositorio</a>
         </article>
     </div>
     </section>
@@ -131,7 +139,7 @@
     </section>
 
     <footer>
-        <p>© 2025 Todos los derechos reservados</p>
+        <p>&copy <span id="year">2025</span> Todos los derechos reservados</p>
     </footer>
 
     <script src="JS/main.js"></script>

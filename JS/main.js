@@ -1,4 +1,6 @@
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+const year = document.getElementById("year");
+
+document.querySelectorAll('href="#"').forEach(anchor => {
     anchor.addEventListener("click", function (e) {
     e.preventDefault();
     document.querySelector(this.getAttribute("href")).scrollIntoView({
@@ -6,3 +8,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
     });
 });
+
+year.textContent = new Date().getFullYear();
+
